@@ -1,4 +1,26 @@
-body { font-family: sans-serif; margin: 2rem; }
-h1 { text-align: center; }
-.info p { margin: 0.5rem 0; }
-button { margin-top: 1rem; padding: 0.5rem 1rem; }
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 2em;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.confirmation {
+  background: #fff;
+  padding: 2em;
+  border: 1px solid #ccc;
+  max-width: 600px;
+  margin: 0 auto 2em auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.validation {
+  text-align: center;
+}
