@@ -1,22 +1,38 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Potvrzení o studiu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirmation of Studies</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Potvrzení o studiu</h1>
-  <div class="info">
-    <p><strong>Jméno a příjmení</strong>: <span id="name">Bc. Václav Paták</span></p>
-    <p><strong>Škola</strong>: <span id="school">Masarykova univerzita</span></p>
-    <p><strong>Fakulta</strong>: <span id="faculty">Lékařská fakulta</span></p>
-    <p><strong>Studijní program</strong>: <span id="program">Všeobecné lékařství</span></p>
-    <p><strong>Den vystavení</strong>: <span id="issued">11. 7. 2025</span></p>
-    <p><strong>Stav studia k</strong>: <span id="statusDate">14. 7. 2025</span></p>
-    <p><strong>Stav</strong>: <span id="status">Studium probíhá.</span></p>
-  </div>
-  <button id="download">Stáhnout PDF</button>
-  <script src="script.js"></script>
+  <header>
+    <h1>Masaryk University</h1>
+    <h2>Information System</h2>
+  </header>
+
+  <main>
+    <section class="confirmation">
+      <h2>Confirmation of Studies</h2>
+      <p>This is to confirm that</p>
+      <p class="student-name"><strong>John Doe</strong></p>
+      <p>Date of Birth: <strong>01/01/2000</strong></p>
+      <p>Faculty: <strong>Faculty of Informatics</strong></p>
+      <p>Study Programme: <strong>Computer Science</strong></p>
+      <p>Has been enrolled in full-time study as of <strong>14 July 2025</strong>.</p>
+    </section>
+
+    <section class="validation">
+      <p>For official validation, scan the QR code below or visit:</p>
+      <p><a href="#">https://your-verification-url.com</a></p>
+      <img src="qr-placeholder.png" alt="QR Code" width="150">
+    </section>
+  </main>
+
+  <footer>
+    <p>Masaryk University • Information System</p>
+  </footer>
 </body>
 </html>
